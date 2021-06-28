@@ -1,0 +1,17 @@
+Terminals do not match : - Expected : ( || Found : $
+
+Parsing was completed but the input string is completely consumed and the stack is not empty.
+
+Parsing was completed but either terminals did not match, SKIP was used or SYNCH was used
+
+Input is not valid according to the Syntax of our language
+
+The contents of the stack at each step are as follows :
+Step 1 : PROGRAM $
+Step 2 : FUNCTION_LIST MAIN $
+Step 3 : FIRST_FUNCTION MORE_FUNCTIONS MAIN $
+Step 4 : FIRST_FUNCTION_PRE FIRST_FUNCTION_POST MORE_FUNCTIONS MAIN $
+Step 5 : TYPE id ( FIRST_FUNCTION_POST MORE_FUNCTIONS MAIN $
+Step 6 : int id ( FIRST_FUNCTION_POST MORE_FUNCTIONS MAIN $
+Step 7 : id ( FIRST_FUNCTION_POST MORE_FUNCTIONS MAIN $
+Step 8 : ( FIRST_FUNCTION_POST MORE_FUNCTIONS MAIN $

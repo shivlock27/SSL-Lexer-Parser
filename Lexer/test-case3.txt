@@ -1,0 +1,24 @@
+# This is a comment. This is test case 3 #
+# This test case will demonstrate the different kinds of lexical errors encountered by the lexer while parsing the code #
+
+# Convention followed :- The search for the next token begins on the next immediate character following the character that produces the lexical error #
+int main()
+{
+	int val = 12.356 ; #Semantic error, not lexical error, therefore it returns all the tokens # 
+    
+	float ok = 2.3.555; #Lexical error -> invalid float(2.3.), 555 will be recognized as integer token #
+	
+    int abc= 5~8 ;  # ~ is not present in the alphabet, therefore it is a lexical error #
+
+	int val$&1234 = 23N # identifier can only contain alphabets, digits(not at beginning) and _ (underscore) # 
+    
+    string inttemp = 'inttemp is recognized as an identifier due to rule of longest match (len(inttemp)>len(int))';
+    char x = 'F'; # Single quotes can be used to define strings (multiple characters) as well as character literals (single character) #
+    
+    bool val1 = true;
+    bool val2 = false;
+    bool final_val = (val1 && true) || (val2 && false);
+
+    # not terminated string will return an error message with the characters enclosed within the quotation marks #
+    string not_terminated = "i am not going to terminate......
+}

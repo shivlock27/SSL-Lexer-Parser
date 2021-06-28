@@ -1,0 +1,72 @@
+Output for test-case3.txt -
+
+Token 200 string int Line Number:5   
+Token 205 string main Line Number:5  
+Token 121 string ( Line Number:5     
+Token 123 string ) Line Number:5     
+Token 122 string { Line Number:6     
+Token 200 string int Line Number:7   
+Token 103 string val Line Number:7   
+Token 113 string = Line Number:7     
+Token 105 string 12.356 Line Number:7
+Token 125 string ; Line Number:7     
+Token 201 string float Line Number:9 
+Token 103 string ok Line Number:9
+Token 113 string = Line Number:9
+Lexical error : Too many decimal points 2.3. Line Number : 9
+Token 104 string 555 Line Number:9
+Token 125 string ; Line Number:9
+Token 200 string int Line Number:11
+Token 103 string abc Line Number:11
+Token 113 string = Line Number:11
+Token 104 string 5 Line Number:11
+Lexical error : Invalid Character ~Line Number :11
+Token 104 string 8 Line Number:11
+Token 125 string ; Line Number:11
+Token 200 string int Line Number:13
+Token 103 string val Line Number:13
+Lexical error : Invalid Character $Line Number :13
+Token 117 string & Line Number:13
+Token 104 string 1234 Line Number:13
+Token 113 string = Line Number:13
+Token 104 string 23N Line Number:13
+Token 203 string string Line Number:15
+Token 103 string inttemp Line Number:15
+Token 113 string = Line Number:15
+Token 106 string inttemp is recognized as an identifier due to rule of longest match (len(inttemp)>len(int)) Line Number:15
+Token 125 string ; Line Number:15
+Token 202 string char Line Number:16
+Token 103 string x Line Number:16
+Token 113 string = Line Number:16
+Token 107 string F Line Number:16
+Token 125 string ; Line Number:16
+Token 204 string bool Line Number:18
+Token 103 string val1 Line Number:18
+Token 113 string = Line Number:18
+Token 208 string true Line Number:18
+Token 125 string ; Line Number:18
+Token 204 string bool Line Number:19
+Token 103 string val2 Line Number:19
+Token 113 string = Line Number:19
+Token 209 string false Line Number:19
+Token 125 string ; Line Number:19
+Token 204 string bool Line Number:20
+Token 103 string final_val Line Number:20
+Token 113 string = Line Number:20
+Token 121 string ( Line Number:20
+Token 103 string val1 Line Number:20
+Token 116 string && Line Number:20
+Token 208 string true Line Number:20
+Token 123 string ) Line Number:20
+Token 118 string || Line Number:20
+Token 121 string ( Line Number:20
+Token 103 string val2 Line Number:20
+Token 116 string && Line Number:20
+Token 209 string false Line Number:20
+Token 123 string ) Line Number:20
+Token 125 string ; Line Number:20
+Token 203 string string Line Number:23
+Token 103 string not_terminated Line Number:23
+Token 113 string = Line Number:23
+Lexical error : String not terminated i am not going to terminate......
+} Line Number : 24

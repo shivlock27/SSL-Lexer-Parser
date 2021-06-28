@@ -1,0 +1,19 @@
+Parsing was successful and the level order traversal for the parse tree is generated as follows:-
+Level 0 PROGRAM
+Level 1 MAIN
+Level 2 main ( ) { STMTS }
+Level 3 STMT_PRE STMT_POST
+Level 4 STMT ; STMTS
+Level 5 TYPE id POS_3 STMT_PRE STMT_POST
+Level 6 int VARLIST_POST STMT ; STMTS
+Level 7 , id VARLIST_POST input ( id ) STMT_PRE STMT_POST
+Level 8 ssc STMT ; STMTS
+Level 9 input ( id ) STMT_PRE STMT_POST
+Level 10 STMT ; ssc
+Level 11 TYPE id POS_3
+Level 12 int = POS_4
+Level 13 EXPR
+Level 14 TERM EXPR'
+Level 15 FACTOR TERM' ssc
+Level 16 id * FACTOR TERM'
+Level 17 id ssc

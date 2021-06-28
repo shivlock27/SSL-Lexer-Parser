@@ -1,0 +1,46 @@
+#This is a comment - This is Test case 2 #
+
+# Constructs used :- Arrays, Loops (while), Conditional Statement (ifel,if), Operators, Literals, Keywords, Identifiers, Delimiters #
+
+# This code is used to search for a number within an array in O(logn) - Binary Search #
+
+int main()
+{
+    int arr[10] = {10N,4N,1N,0,2,3,8,14,25,28,32}; # Array consisting of positive and negative elements present in ascending order #
+    int start = 0;
+    int end = 11;
+    int key=8;
+    int ans=1N;
+	bool present = false; 
+
+    #Binary search algorithm #
+    while(end>=start)
+    {
+        int mid = start + (end-start)/2;
+        if(arr[mid]==key)
+        {
+            present = true;
+            ans=mid;
+            break;
+        }
+        ifel(arr[mid]>key) # if else construct defined in the language such that the two blocks of code{if part}{else part} following
+		the ifel(condition) depict the if and else blocks respectively #
+        {
+            end=mid-1;
+        }   
+        {
+            start = mid+1;
+        } 
+    }
+    
+    ifel(!present) # if else construct defined in the language # 
+    {
+        print("Number not found");
+    }
+    {
+        print("The number is found at index",ans);
+    }
+    return 0;
+}
+
+

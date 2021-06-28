@@ -1,0 +1,56 @@
+Displayed token numbers with their corresponding tokens
+
+Tokens:-
+
+Identifier      = 103
+Numeric literal = 104
+"."	            = 105
+""""	        = 106    // String literal
+"''"            = 107    // Character literal
+"<="            = 108
+"<"             = 109
+">="            = 110
+">"             = 111
+"=="            = 112
+"="             = 113
+"!="            = 114
+"!"             = 115
+"&&"            = 116  
+"&"             = 117
+"||"            = 118
+"|"             = 119 
+"^"             = 120
+"("             = 121
+"{"             = 122
+")"             = 123
+"}"             = 124
+";"             = 125
+"++"            = 126
+"+"             = 127
+"--"            = 128
+"-"             = 129
+"*"             = 130
+"/"             = 131         
+"%"             = 132
+"["             = 133
+"]"             = 134
+","             = 135
+
+Keywords:-
+
+"int"           = 200
+"float"         = 201
+"char"          = 202
+"string"        = 203
+"bool"          = 204
+"main"          = 205
+"if"            = 206
+"ifel"          = 207
+"true"          = 208
+"false"         = 209
+"while"         = 210
+"void"          = 211
+"print"         = 212
+"return"        = 213
+"break"         = 214
+"input"         = 215

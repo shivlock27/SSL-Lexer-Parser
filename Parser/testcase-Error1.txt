@@ -1,0 +1,15 @@
+int sum(int a,int b)
+{
+    int ans=a+b;
+    return ans,iden;
+
+main()
+{
+    ident1 ident2 = 15*10;
+    int val=return sum()10,(20);
+}
+int diff(int a, int b)
+{
+    int ans=a-b;
+    return ans;
+}

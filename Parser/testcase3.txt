@@ -1,0 +1,47 @@
+#This is a comment - This is Test case 2 #
+
+# Constructs used :- Loops (while), Conditional Statement (ifel,if), Operators, Literals, Keywords, Identifiers, Delimiters #
+
+
+# This code is used to calculate the modular power of a number in O(logn) time #
+
+int power(int x, int y, int p)
+{
+    int res = 1;     
+    x = x % p; 
+    if (x == 0)
+    {
+        return 0;
+    };  
+    while (y > 0)
+    {
+        int a = y%2;
+        if (a != 0)
+        {
+            res = res*x % p;
+        };
+        y = y/2; 
+        x = (x*x) % p;
+    };  
+    return res;
+}
+
+main()
+{
+    string prompt = "Enter the base";
+    print(prompt);
+    int base;
+    input(base);
+    prompt = "Enter the exponent";
+    print(prompt);
+    int exponent;
+    input(exponent);
+    string prompt = "Enter the p";
+    print(prompt);
+    int p;
+    input(p);
+
+    float answer = return power(base,exponent,p); #semantic error, not a syntax error#
+    print(answer);
+}
+

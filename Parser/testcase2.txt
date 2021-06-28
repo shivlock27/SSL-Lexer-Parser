@@ -1,0 +1,22 @@
+# This is a comment - This is Test Case 1 #
+
+# This function returns the product of two integers 
+and a floating point number #
+float getProduct(int a,int b, float f)
+{
+	int c=a*b;
+	float product= c*f;
+	return product;
+}
+
+main()
+{
+    int num1 = 2;
+    int num2;
+    input(num2);
+    float num3 = 2.34N; # num3 is a negative number (depicted by 'N' at the end) #
+    float c = return getProduct(num1,num2,num3);
+    string prompt = "The product is";
+    print(c);
+    return 0;
+}
